@@ -53,7 +53,7 @@ install:
 	@echo "install -----------------------------------------------------------------"
 	-mkdir $(MEDIA_BASE)
 	-mkdir $(MEDIA_ROOT)
-	chown -R ddr.root $(MEDIA_ROOT)
+	chown -R encyc.root $(MEDIA_ROOT)
 	chmod -R 755 $(MEDIA_ROOT)
 	-mkdir $(ASSETS_ROOT)
 	-mkdir $(STATIC_ROOT)
